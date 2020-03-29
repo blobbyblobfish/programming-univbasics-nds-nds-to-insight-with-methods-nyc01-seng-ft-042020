@@ -6,7 +6,7 @@ require 'directors_database'
 def gross_for_director(director_data)
   
   gross = 0 
-  row index = 0 
+  row_index = 0 
   while row_index < director_data.length do 
     column_index = 0 
     while column_index < director_data[row_index].length do 
